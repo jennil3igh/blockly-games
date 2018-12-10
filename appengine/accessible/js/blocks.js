@@ -33,7 +33,7 @@ goog.require('Blockly.JavaScript');
 /**
  * Common HSV hue for all blocks in this category.
  */
-Music.Blocks.HUE = 20;
+Music.Blocks.HUE = '#78BEAE';
 
 Music.Blocks.NOTE_OPTIONS = [
   ["C4", "48"],
@@ -252,7 +252,7 @@ Blockly.Blocks['loops_repeat']= {
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour(Blockly.Msg['LOOPS_HUE']);
+    this.setColour('#FCA1A3');
     this.setTooltip(Blockly.Msg['CONTROLS_REPEAT_TOOLTIP']);
     this.setHelpUrl(Blockly.Msg['CONTROLS_REPEAT_HELPURL']);
   }

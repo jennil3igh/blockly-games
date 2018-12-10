@@ -38,7 +38,7 @@ Maze.Blocks.MOVEMENT_HUE = "#FCA1A3";
 /**
  * HSV hue for loop block.
  */
-Maze.Blocks.LOOPS_HUE = 120;
+Maze.Blocks.LOOPS_HUE = '#78BEAE';
 
 /**
  * Common HSV hue for all logic blocks.

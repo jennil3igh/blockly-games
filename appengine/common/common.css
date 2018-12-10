@@ -166,3 +166,69 @@ button:hover:not(:disabled) {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+
+body {
+  margin: 0px;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+}
+
+body > table:first-of-type {
+  width: 100%;
+  background-color: rgba(244, 218, 92, 0.75);
+  padding: 0px 14px;
+  margin-bottom: 7px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#title a {
+  color: #c5260f;
+  font-weight: bold;
+}
+#title a:hover {
+  text-decoration: underline;
+  color: #c5260f;
+}
+
+#title ~ a:nth-child(n+11) {
+  padding: 3px 7.2px;
+}
+
+.level_number {
+  padding: 3px 12px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: black;
+  cursor: pointer;
+}
+
+.level_dot {
+  border: 1px solid white;
+}
+
+.level_done {
+  background: white;
+  color: #78beae;
+}
+
+.level_number:hover,
+.level_dot:hover {
+  background: #f0b040;
+}
+
+#helpButton {
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.blocklySvg {
+  background-color: transparent;
+}
+
+.blocklyText {
+  fill: #000000;
+}
+
+.blocklyFlyoutBackground {
+  fill: #ffffff;
+}
