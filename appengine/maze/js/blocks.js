@@ -33,7 +33,7 @@ goog.require('BlocklyGames');
 /**
  * Common HSV hue for all movement blocks.
  */
-Maze.Blocks.MOVEMENT_HUE = 290;
+Maze.Blocks.MOVEMENT_HUE = "#FCA1A3";
 
 /**
  * HSV hue for loop block.
@@ -43,7 +43,7 @@ Maze.Blocks.LOOPS_HUE = 120;
 /**
  * Common HSV hue for all logic blocks.
  */
-Maze.Blocks.LOGIC_HUE = 210;
+Maze.Blocks.LOGIC_HUE = "#FFEFA1";
 
 /**
  * Left turn arrow to be appended to messages.

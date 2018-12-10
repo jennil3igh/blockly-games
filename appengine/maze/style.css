@@ -7,6 +7,7 @@
 }
 #capacityBubble {
   position: absolute;
+  position: absolute;
   margin-top: -0.5em;
   left: 10px;
   top: 375px;
@@ -143,3 +144,9 @@ html[dir="RTL"] #pegmanButton>span {
   width: 49px;
   background-position: -980px 0px;
 }
+
+.blocklySvg{
+  background-color: #CC000000 !important;
+}
+
+

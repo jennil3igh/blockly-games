@@ -1,5 +1,6 @@
 body {
   overflow: hidden;
+  background-image: url("carnivalLighter.png"); 
 }
 
 #graph {
@@ -12,7 +13,7 @@ body {
 #graphValue {
   height: 15px;
   width: 0;
-  background-color: #0d0;
+  /*background-color: #0d0;*/
   transition-property: width;
   transition-duration: 1s;
 }
@@ -29,3 +30,8 @@ body {
   height: 205px;
   width: 300px;
 }
+
+.blocklySvg{
+  background-color: #CC000000 !important;
+}
+

@@ -32,17 +32,17 @@ goog.require('BlocklyGames');
 /**
  * Common HSV hue for all animal blocks.
  */
-Puzzle.Blocks.ANIMAL_HUE = 120;
+Puzzle.Blocks.ANIMAL_HUE =  "#FCA1A3" ;
 
 /**
  * Common HSV hue for all picture blocks.
  */
-Puzzle.Blocks.PICTURE_HUE = 30;
+Puzzle.Blocks.PICTURE_HUE = "#FFEFA1";
 
 /**
  * Common HSV hue for all trait blocks.
  */
-Puzzle.Blocks.TRAIT_HUE = 290;
+Puzzle.Blocks.TRAIT_HUE = "#78BEAE";
 
 Blockly.Blocks['animal'] = {
   /**
