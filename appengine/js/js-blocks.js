@@ -344,7 +344,7 @@ Blockly.Blocks['math_change'].init = function() {
     "inputsInline": true,
     "previousStatement": null,
     "nextStatement": null,
-    "colour": Blockly.Msg['VARIABLES_HUE'],
+    "colour": '#ffcc00',
     "helpUrl": Blockly.Msg['MATH_CHANGE_HELPURL']
   });
   // Assign 'this' to a variable for use in the tooltip closure below.
@@ -514,7 +514,7 @@ Blockly.Msg['LISTS_LENGTH_TITLE'] = '%1 . length';
  */
 Blockly.Blocks['variables_get'].init = function() {
   this.setHelpUrl(Blockly.Msg['VARIABLES_GET_HELPURL']);
-  this.setColour(Blockly.Msg['VARIABLES_HUE']);
+  this.setColour('#e0ddcb');
   this.appendDummyInput()
       .appendField(new Blockly.FieldVariable('name'), 'VAR');
   this.setOutput(true);
@@ -529,7 +529,7 @@ Blockly.Blocks['variables_get'].init = function() {
  */
 Blockly.Blocks['variables_set'].init = function() {
   this.setHelpUrl(Blockly.Msg['VARIABLES_SET_HELPURL']);
-  this.setColour(Blockly.Msg['VARIABLES_HUE']);
+  this.setColour('#2d2c26');
   this.appendValueInput('VALUE')
       .appendField('var')
       .appendField(new Blockly.FieldVariable('name'), 'VAR')

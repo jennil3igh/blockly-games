@@ -45,9 +45,9 @@ goog.require('BlocklyGames');
 
 
 /**
- * Common HSV hue for all blocks in this category.
+ * Common HSV hue for all blocks in this catesgory.
  */
-Music.Blocks.HUE = 160;
+Music.Blocks.HUE = '#78BEAE';
 
 Blockly.Blocks['music_pitch'] = {
   /**
@@ -58,7 +58,7 @@ Blockly.Blocks['music_pitch'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldPitch('7'), 'PITCH');
     this.setOutput(true, 'Number');
-    this.setColour(Blockly.Msg['MATH_HUE']);
+    this.setColour(Music.Blocks.HUE);
     this.setTooltip(BlocklyGames.getMsg('Music_pitchTooltip'));
   }
 };
@@ -252,7 +252,7 @@ Blockly.Blocks['music_start'] = {
           "name": "STACK"
         }
       ],
-      "colour": 0,
+      "colour": '#c5260f',
       "tooltip": BlocklyGames.getMsg('Music_startTooltip')
     });
   }
@@ -282,7 +282,7 @@ if (BlocklyGames.LEVEL < 10) {
         .appendField(Blockly.Msg['PROCEDURES_DEFNORETURN_TITLE'])
         .appendField(nameField, 'NAME')
         .appendField('', 'PARAMS');
-    this.setColour(Blockly.Msg['PROCEDURES_HUE']);
+    this.setColour('#FFEFA1');
     this.setTooltip(Blockly.Msg['PROCEDURES_DEFNORETURN_TOOLTIP']);
     this.setHelpUrl(Blockly.Msg['PROCEDURES_DEFNORETURN_HELPURL']);
     this.arguments_ = [];
